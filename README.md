@@ -1,16 +1,3 @@
-# gsoc2
+The Flutter application utilizes Tensor Flow Lite, a pre-trained machine learning model, to detect and identify objects captured in real-time images. The application employs a bounding box algorithm to identify the object's location and uses a selection logic based on the object's confidence rate when multiple objects are detected.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+After detecting the object, the application implements an autozoom feature by utilizing the object's bounding box coordinates. The autozoom logic can vary based on the specific requirements of the application. If a more optimal approach for autozoom is identified, it can be implemented to enhance the application's functionality.

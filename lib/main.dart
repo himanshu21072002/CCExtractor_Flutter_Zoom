@@ -1,5 +1,4 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:gsoc2/spash_screen.dart';
 
 import 'package:camera/camera.dart';

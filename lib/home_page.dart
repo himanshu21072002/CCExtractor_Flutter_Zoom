@@ -35,7 +35,6 @@ class _HomePageState extends State<HomePage> {
   @override
   void initState() {
     super.initState();
-    print('back from zoom page');
     _cameraController = CameraController(
       cameras![0],
       ResolutionPreset.medium,
